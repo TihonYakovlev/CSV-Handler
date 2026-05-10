@@ -1,4 +1,5 @@
 from youtube_reports.reader import read_video_metrics
+from youtube_reports.render import render_table
 from youtube_reports.reports import get_report
 
 
@@ -7,7 +8,5 @@ def main() -> int:
     report = get_report("clickbait")
     rows = report.build(videos)
 
-    for row in rows:
-        print(row)
-
+    print(render_table(rows, report.columns))
     return 0
