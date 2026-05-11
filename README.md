@@ -41,3 +41,7 @@ python main.py --files stats1.csv stats2.csv --report clickbait
 pip install -r requirements-dev.txt
 python -m pytest
 ```
+-------------
+### Мои контакты
+Telegram: [@souriape](https://t.me/souriape)  
+Email: tijak280803@gmail.com
